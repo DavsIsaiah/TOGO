@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>ToGo</title>
+    <style>
+
+        #picture {
+            position: absolute;
+            width: 280px;
+            height: 281.09px;
+            left: 93px;
+            top: 54px;
+        }
+
+        .togotext {
+            position: absolute;
+            width: 162.19px;
+            height: 116.36px;
+            left: 122px;
+            top: 335.47px;
+
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 55px;
+            color: #000000;
+            transform: rotate(-46.93deg);
+        }
+
+        #triangle {
+            position: absolute;
+            left: 592px;
+            top: 0px;
+        }
+
+        #motto {
+            position: absolute;
+            width: 543px;
+            height: 141px;
+            left: 1326px;
+            top: 885px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 37px;
+            text-align: center;
+            color: #404480;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+            max-height: 100px;
+        }
+
+        #signinbutton {
+            position: absolute;
+            width: 227px;
+            height: 61px;
+            left: 1492px;
+            top: 891px;
+            background: #404480;
+            border-radius: 40px;
+        }
+
+        #signintext {
+            position: absolute;
+            width: 273px;
+            height: 91px;
+            left: 1500px;
+            top: 400px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 64px;
+            line-height: 78px;
+            color: #000000;
+
+        }
+
+        #username {
+            position: absolute;
+            width: 485px;
+            height: 80px;
+            left: 1374px;
+            top: 528px;
+            background: #FFFFFF;
+            border-radius: 40px;
+            border: none;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            padding-left: 20px;
+            line-height: 39px;
+            color: #000000;
+
+        }
+
+        #form:hover{
+            background-color:#404480
+        }
+
+        #password {
+
+            position: absolute;
+            width: 485px;
+            height: 80px;
+            left: 1374px;
+            top: 653px;
+            background: #FFFFFF;
+            border-radius: 40px;
+            border: none;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 39px;
+            padding-left: 20px;
+            color: #000000;
+
+        }
+
+        #togo{
+            position: absolute;
+            width: 162.19px;
+            height: 116.36px;
+            left: 160px;
+            top: 260.47px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 55px;
+            color: #000000;
+            transform: rotate(-46.93deg);
+        }
+
+        #button{
+            position: absolute;
+            width: 227px;
+            height: 61px;
+            left: 1500px;
+            top: 791px;
+            background: #404480;
+            border-radius: 40px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #FFFFFF;
+            border:none;
+            cursor:pointer;
+        }
+
+        #button:hover {
+            background-color: rgb(0, 0, 0);
+        }
+
+        :-ms-input-placeholder{
+            color:#9B9B9B;
+        }
+       
+
+
+
+        
+    </style>
+    <link rel="shortcut icon" href="Assets/logo.png">
+
+    </head>
+
+    <body >
+        <!-- background -->
+
+        <div class="row" >
+            <div class="column">
+                <img src= "Assets/logo.png" id="picture" alt="logo of TOGO system">
+            </div>
+        </div>
+
+        <!-- <div class = "bg-image" style="background-image: url('5471.jpg');"> </div> -->
+        <div class="row" >
+            <div class="column" >
+                <img src= "Assets/5471.jpg" alt="picture of login page" >
+            </div>
+            <div class="column" >
+                <img src="Assets/triangle.png" id="triangle" alt="picture of triangle" >
+            </div>
+        </div>
+
+        <p id="togo">to-go</p>
+        <!-- sign in form -->
+
+        <p id="signintext">Sign In </p>
+
+        <form action="SignIn" method="POST" style="max-height:0px;">
+            <input type="text" id="username" name="user" value="" placeholder="username" required><br>
+            <input type="password" id="password" name="pass" value="" placeholder="password" required><br>
+            <button type="submit" id="button" >SIGN IN</button>
+        </form>
+
+
+
+
+        <p id="motto">"To Observe Good Operations"</p>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

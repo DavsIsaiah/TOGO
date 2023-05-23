@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+body{    
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.div-1 {
+    background-color: #CCCFFF;
+    display: flex; 
+    justify-content: center;
+    margin-top: 75px;
+    margin-right: 19%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: "xxx-large";
+}
+
+.div-2 {
+    text-align: center;
+    background-color: #CCCFFF;
+    margin-top: 0px;
+    margin-right: 19%;
+    margin-bottom: 75px;
+    margin-left: 0px;
+    padding-bottom: 80px;
+}
+
+.hc {
+    height: fit-content;
+}
+
+h1 {
+    margin-top: 30px;
+    font-size: xxx-large;
+}
+
+.rightdiv {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    padding: 200px 150px;
+    margin: 0;
+    position: absolute;
+    right: 2%;
+    top: 30px;
+    border: 2px solid #404480;
+    background: #404480;
+}
+
+.btn {
+    background-color: #A3A6CC;
+    border: none;
+    border-radius: 15px;
+    padding: 40%;
+    margin-left: -30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #b4a3cc; /* hindi pa based sa pallete */
+}
+
+i{
+    font-size: 5em;
+}
+
+img{
+    width: 370px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1390px) {
+    .div-1 {
+        margin-top: 75px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    
+    .div-2 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 75px;
+        margin-left: 0px;
+        padding-bottom: 6%;
+    }
+
+    .rightdiv {
+        display: block; 
+        justify-content: center;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        padding: 50px 0px;
+        margin: -120px 20% 20px 20%;
+        position: static;
+        border: 2px solid #404480;
+        background: #404480;
+    }
+
+    .btn {
+        background-color: #A3A6CC;
+        border: none;
+        border-radius: 15px;
+        padding: 30px;
+        margin-left: 0px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    img{
+        width: 300px;
+    }
+}

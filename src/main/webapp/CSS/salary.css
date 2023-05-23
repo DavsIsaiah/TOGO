@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+body{    
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    background-color: #CCCFFF; 
+}
+
+.div-1 {
+    background-color: white;
+    display: flex; 
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    font-size: xxx-large;
+}
+
+.div-2 {
+    text-align: center;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    padding-bottom: 5%;
+}
+
+.div-3 {
+    text-align: center;
+    background-color: white;
+    margin-top: 100px;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    padding-bottom: 55px;
+}
+
+
+
+.hc {
+    height: fit-content;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: xxx-large;
+    text-align: right;
+    margin-bottom: 0px;
+
+}
+
+
+h2 {
+    margin-top: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 60px;
+    margin-bottom: 0px;
+
+
+}
+h3 {
+    margin-left: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: left;
+   
+}
+
+h4 {
+    margin-left: 200px;
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: lighter;
+   
+}
+
+.salary {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: xxx-large;
+    text-align: right;
+    border-bottom: solid;
+    
+    border-color: gray;
+}
+
+.sm-mmargin {
+    margin-left: 11ex;
+    font-size: 25px;
+  }
+
+
+table {
+   
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: white;
+    margin-right: 25px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    padding-bottom: 55px;
+    border-spacing: 25px 25px;
+    padding-left: 200px;
+    margin-top: 0px;
+    
+
+    
+  }
+
+  .th1{
+      font-size: 25px;
+      font-weight: lighter;
+  }
+
+  .th2{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+  .tableimg{
+    max-width: 20ex;
+    border: 5px solid white;
+    margin-left: 60px;
+    float: left;
+    margin-right: 30px; 
+    margin-top: 15px;
+
+  }
+
+  th.from, th.date {
+    width: 15%
+  }
+  
+
+.rightdiv {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    padding: 200px 150px;
+    margin: 0;
+    position: absolute;
+    right: 2%;
+    top: 30px;
+    border: 2px solid #404480;
+    background: #404480;
+}
+
+.btn {
+    background-color: #A3A6CC;
+    border: none;
+    border-radius: 15px;
+    padding: 40%;
+    margin-left: -30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #b4a3cc; /* hindi pa based sa pallete */
+}
+
+i{
+    font-size: 5em;
+}
+
+img{
+    width: 370px;
+    border-radius: 50%;
+}
+
+
+header{
+    z-index: 1;
+    position: fixed;
+    background: #404480;
+    padding: 20px;
+    width: calc(100% - 0%);
+    top: 0;
+    height: 30px;
+  }
+  .left_area img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: #404480;
+  }
+  .left_area h3{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+    
+  }
+  
+  .left_area span{
+    color: #fff;
+  }
+
+
+  .logout_btn{
+    padding: 8px;
+    background: #CCCFFF;
+    text-decoration: none;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+  }
+  
+  .logout_btn:hover{
+    background: #8088FF;
+  }
+
+  .attlabel{
+    margin-left: 10px;
+  }
+
+
+@media only screen and (max-width: 1390px) {
+    .div-1 {
+        margin-top: 75px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    
+    .div-2 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 75px;
+        margin-left: 0px;
+        padding-bottom: 6%;
+    }
+
+    .rightdiv {
+        display: block; 
+        justify-content: center;
+        font-weight: bold;
+        border: none;
+        border-radius: 20px;
+        padding: 50px 0px;
+        margin: -120px 20% 20px 20%;
+        position: static;
+        border: 2px solid #404480;
+        background: #404480;
+    }
+
+    .btn {
+        background-color: #A3A6CC;
+        border: none;
+        border-radius: 15px;
+        padding: 30px;
+        margin-left: 0px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    img{
+        width: 300px;
+    }
+}
